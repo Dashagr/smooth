@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #555;
+}
+
+.nav-list {
+  height: 10vh;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+}
+
+.home,
+.about,
+.contact {
+  height: 90vh;
+  position: absolute;
+  width: 100%;
+}
+
+.home-content,
+.about-content,
+.contact-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.home-content img,
+.about-content img,
+.contact-content img {
+  height: 70%;
+}
+.home-content h1,
+.about-content h1,
+.contact-content h1 {
+  font-size: 4em;
+  margin: 0 0 1em 0;
+}
+.home-content p,
+.about-content p,
+.contact-content p {
+  font-size: 2em;
+}
+
+.home {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.contact {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.contact-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.contact-presentation h1 {
+  margin-bottom: 3em;
+}
+.contact-presentation .buttons {
+  display: flex;
+  flex-direction: row;
+}
+.contact-presentation .buttons .button {
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+}
+.contact-presentation .buttons .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  text-align: center;
+  transition: all 0.3s ease-out;
+}
+.contact-presentation .buttons .button .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.contact-presentation .buttons .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.05s ease-out;
+}
+.contact-presentation .buttons .button:hover {
+  width: 200px;
+}
+.contact-presentation .buttons .button:hover .icon i {
+  color: white;
+}
+.contact-presentation .buttons .button:hover:nth-child(1) .icon {
+  background-color: #4267B2;
+}
+.contact-presentation .buttons .button:hover:nth-child(2) .icon {
+  background-color: #4fcff5;
+}
+.contact-presentation .buttons .button:hover:nth-child(3) .icon {
+  background-color: #E1306C;
+}
+.contact-presentation .buttons .button:hover:nth-child(4) .icon {
+  background-color: #333;
+}
+.contact-presentation .buttons .button:hover:nth-child(5) .icon {
+  background-color: #004b7c;
+}
+.contact-presentation .buttons .button:hover:nth-child(6) .icon {
+  background-color: #db4437;
+}
+.contact-presentation .buttons .button:nth-child(1) span {
+  color: #4267B2;
+}
+.contact-presentation .buttons .button:nth-child(2) span {
+  color: #4fcff5;
+}
+.contact-presentation .buttons .button:nth-child(3) span {
+  color: #E1306C;
+}
+.contact-presentation .buttons .button:nth-child(4) span {
+  color: #333;
+}
+.contact-presentation .buttons .button:nth-child(5) span {
+  color: #004b7c;
+}
+.contact-presentation .buttons .button:nth-child(6) span {
+  color: #db4437;
+}
+
+/*# sourceMappingURL=/style.e0c02e61.css.map */
